@@ -1,7 +1,7 @@
 package com.company.kavindu.Creational;
 
 abstract class AbstractFactory{
-    abstract AnimalGroups getAnimalGroup(String group);
+    public abstract AnimalGroups getAnimalGroup(String group);
 }
 
 class AnimalsLivedInWater extends AbstractFactory{
